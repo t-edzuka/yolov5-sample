@@ -2,7 +2,7 @@
 
 ## データの流れ
 
-1. HTMLImageElement (img タグ 　<img /> ) をレンダリングする　.
+1. HTMLImageElement (img タグ　<img />) をレンダリングする　.
 2. レンダリングした画像がロードされたら (`<img >`タグの`onLoad`), HTMLImageElement オブジェクトを取得して以下の内容を関数で実行する.
 3. HTMLImageElement を `tf.browser.fromPixels`で Tensor に変換.
 4. model を読み込む. `/public/web_model/model.json` からモデルを取得して読み込む.
